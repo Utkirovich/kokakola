@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="/css/style.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  <nav>
+    <p>Welcome to our online shop</p>
+    <div class="startNav">
+      <i class="fa-solid fa-right-to-bracket"></i>
+      <h3 class="avtorizasia"><a href="">Sing in</a></h3>
+      <i class="fa-solid fa-user-check"></i>
+      <h3 class="registrasia"><a href="">Register</a></h3>
+    </div>
+  </nav>
+  <header>
+    <div class="startHeader">
+      <img src="https://bananashoes.ru/upload/iblock/ba8/kennel_und_schmenger_logo_final1_1024x383.jpg" alt="">
+    <div class="search">
+      <input type="text" placeholder="Search here ...">
+      <button><ion-icon name="search-outline" class="search-icon"></ion-icon></button>  
+    </div>
+    <div class="icons">
+      <div class="ri">
+        <ion-icon name="cart-outline"></ion-icon><p>0</p>
+      </div>
+      <div class="le">
+        <ion-icon name="cash-outline"></ion-icon><p>$0.00</p>
+      </div>
+    </div>
+    </div>
+    
+    <div class="bigDiv">
+      <ul>
+        <li>HOME</li>
+        <li>SHOP</li>
+        <li>BLOG</li>
+        <li>ABOUT</li>
+        <li>CONTACT US</li>
+      </ul>
+    </div>
+
+      <main>
+        <div class="container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://images.complex.com/complex/images/c_crop,h_539,w_958,x_59,y_374/c_fill,dpr_auto,f_auto,q_90,w_1400/fl_lossy,pg_1/bwoovuz8ws6i6gb6nvzl/trophy-room-air-jordan-1-raffle" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://images.complex.com/complex/images/c_crop,h_1045,w_1857,x_72,y_524/c_fill,f_auto,g_center,w_1200/fl_lossy,pg_1/wkoijrn562dzjmcyeu24/air-jordan-1-high-new-beginnings-varsity-red-release-date-bq4422-600-profile" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/381d9ba6-8f9f-4721-8167-6eeef2533e40/zoom-prevail-mens-running-shoes-BhMfQC.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+    </main>
+
+    <div class="aLotIcons">
+      <ion-icon name="gift-outline"></ion-icon>
+      <ion-icon name="wallet-outline"></ion-icon>
+      <ion-icon name="headset-outline"></ion-icon>
+    </div>
+  
+    
+  </header>
+
+
+
+
+
+
+  <script src="https://kit.fontawesome.com/4f60cc4087.js" crossorigin="anonymous"></script>
+  <script src="function.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      loop: true,
+      autoplay: {
+        delay: 5000,
+      },
+    });
+  </script>
+</body>
+</html>
